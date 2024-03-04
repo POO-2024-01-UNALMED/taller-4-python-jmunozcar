@@ -7,7 +7,7 @@ class Grupo:
         self._grupo = grupo
         if asignaturas is None:
             asignaturas = []
-        self.asignaturas = asignaturas
+        self._asignaturas = asignaturas
         if estudiantes is None:
             estudiantes = []
         self.listadoAlumnos = estudiantes
