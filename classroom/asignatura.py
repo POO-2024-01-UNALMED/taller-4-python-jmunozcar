@@ -6,3 +6,4 @@ class Asignatura:
 
     def __str__(self):
         myString = self._nombre + " " + self._salon
+        return myString
