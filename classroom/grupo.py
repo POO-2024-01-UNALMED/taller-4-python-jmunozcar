@@ -10,7 +10,7 @@ class Grupo:
         self._asignaturas = asignaturas
         if estudiantes is None:
             estudiantes = []
-        self._estudiantes = estudiantes
+        self.listadoAlumnos = estudiantes
 
     def listadoAsignaturas(self, kwargs):
         for x in kwargs.values():
